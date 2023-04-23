@@ -1,14 +1,19 @@
 [
     {
         "id": 1,
-        "image": "/static/images/Banner1.png"
+        "image": "/static/images/Frida.png"
     },
     {
         "id": 2,
-        "image": "/static/images/Banner1.png"
+        "image": "/static/images/Marielle.png"
     },
     {
         "id": 3,
-        "image": "/static/images/Banner1.png"
+        "image": "/static/images/Allende.png"
+    },
+    {
+        "id": 4,
+        "image": "/static/images/Nina.png"
     }
+    
 ]

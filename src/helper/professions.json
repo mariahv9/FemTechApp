@@ -1,0 +1,114 @@
+[
+    {
+        "value": "Arquitectura",
+        "label": "Arquitectura"
+    },
+    {
+        "value": "Astronomía",
+        "label": "Astronomía"
+    },
+    {
+        "value": "Bioingeniería",
+        "label": "Bioingeniería"
+    },
+    {
+        "value": "Ciencia de la computación",
+        "label": "Ciencia de la computación"
+    },
+    {
+        "value": "Ciencias ambientales",
+        "label": "Ciencias ambientales"
+    },
+    {
+        "value": "Ciencias marinas",
+        "label": "Ciencias marinas"
+    },
+    {
+        "value": "Contaduría pública",
+        "label": "Contaduría pública"
+    },
+    {
+        "value": "Economía",
+        "label": "Economía"
+    },
+    {
+        "value": "Estadística",
+        "label": "Estadística"
+    },
+    {
+        "value": "Física",
+        "label": "Física"
+    },
+    {
+        "value": "Geología",
+        "label": "Geología"
+    },
+    {
+        "value": "Ingeniería aeronáutica",
+        "label": "Ingeniería aeronáutica"
+    },
+    {
+        "value": "Ingeniería civil",
+        "label": "Ingeniería civil"
+    },
+    {
+        "value": "Ingeniería de minas",
+        "label": "Ingeniería de minas"
+    },
+    {
+        "value": "Ingeniería de petróleos",
+        "label": "Ingeniería de petróleos"
+    },
+    {
+        "value": "Ingeniería de sistemas",
+        "label": "Ingeniería de sistemas"
+    },
+    {
+        "value": "Ingeniería eléctrica",
+        "label": "Ingeniería eléctrica"
+    },
+    {
+        "value": "Ingeniería industrial",
+        "label": "Ingeniería industrial"
+    },
+    {
+        "value": "Matemáticas",
+        "label": "Matemáticas"
+    },
+    {
+        "value": "Mecatrónica",
+        "label": "Mecatrónica"
+    },
+    {
+        "value": "Medicina veterinaria y zootecnia",
+        "label": "Medicina veterinaria y zootecnia"
+    },
+    {
+        "value": "Minería",
+        "label": "Minería"
+    },
+    {
+        "value": "Nanotecnología",
+        "label": "Nanotecnología"
+    },
+    {
+        "value": "Química",
+        "label": "Química"
+    },
+    {
+        "value": "Tecnología en diseño gráfico",
+        "label": "Tecnología en diseño gráfico"
+    },
+    {
+        "value": "Tecnología de alimentos",
+        "label": "Tecnología de alimentos"
+    },
+    {
+        "value": "Tecnología en gestión empresarial",
+        "label": "Tecnología en producción industrial"
+    },
+    {
+        "value": "Tecnología en producción industrial",
+        "label": "Tecnología en producción industrial"
+    }
+]
