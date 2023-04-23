@@ -10,7 +10,6 @@ export default function ProfileList() {
 
   const handleChangeProfesion = async (event) => {
     perfiles[event.target.name] = event.target.value;
-    //console.log(perfiles[event.target.name])
     console.log(perfiles.map(perfil => perfil.profession = perfiles[event.target.name]))
     setPerfiles(perfiles);
     setProfesion(event.target.value);
