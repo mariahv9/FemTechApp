@@ -12,10 +12,37 @@ code {
     monospace;
 }
 
-header{
+a{
+  text-decoration:none;
+  color: white;
+
+}
+
+header {
   display: flex;
   height: 70px;
   background-color: indigo;
-  justify-content: space-between;
-  align-items: center;
+  padding: 10px;
+  justify-content: center;
 }
+
+header h2{
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+
+.logo{
+  align-self: center;
+
+}
+
+.logo img{
+  height: 50px;
+  align-self: center;
+}
+
+
+
