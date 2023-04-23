@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Banner from '../components/home/Banner';
+import CarouselComponent from '../components/home/CarouselComponent';
 
 export default class HomeView extends Component {
 
     render() {
         return (
             <div>
-                <a>HomeView</a>
-                <Banner></Banner>
+                <CarouselComponent/>
             </div>
         );
     }
