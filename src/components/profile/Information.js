@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import Modal from '../profile/Modal';
+import Modal from '../profile/ModalDOS';
 
 const Information = () => {
 

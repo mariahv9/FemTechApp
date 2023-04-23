@@ -1,9 +1,15 @@
 import * as React from 'react';
+import { useState } from 'react';
 import Profiles from '../../helper/profiles.json';
 import Professions from '../../helper/professions.json';
 import { Button, TextField, MenuItem, ImageList, ImageListItem, ImageListItemBar } from '@mui/material';
+import Modal from '../profile/Modal';
 
 export default function ProfileList() {
+
+  const [showModal, setShowModal] = useState(false)
+  const handleOnClose = () => setShowModal(false)
+
   const [perfiles, setPerfiles] = React.useState(Profiles)
 
   const [profesion, setProfesion] = React.useState('');
@@ -21,6 +27,7 @@ export default function ProfileList() {
         <TextField
           id="filled-select-profession"
           height="250"
+          width="400"
           select
           label="Selecciona la profesion"
           variant="filled"
@@ -41,11 +48,13 @@ export default function ProfileList() {
               title={item.first_name + " " + item.last_name}
               subtitle={item.profession}
               actionIcon={
-                <Button sx={{ color: 'white' }}>
+                <Button onClick={() => setShowModal(true)} sx={{ color: 'white' }}>
                   Ver Perfil
                 </Button>
               }
             />
+            <Modal onClose={handleOnClose} visible={showModal}/>
+            {/* <ModalDOS onClose={handleOnClose} visible={showModal}/> */}
             <img
               src={`${item.profile_pic}?w=164&h=164&fit=crop&auto=format`}
               srcSet={`${item.profile_pic}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
