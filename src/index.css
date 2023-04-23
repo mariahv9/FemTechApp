@@ -30,12 +30,6 @@ header {
   background-color: indigo;
   padding: 10px;
   justify-content: center;
-}
-
-header h2{
-  color: white;
-  justify-content: center;
-  text-align: center;
   margin: auto;
 }
 
